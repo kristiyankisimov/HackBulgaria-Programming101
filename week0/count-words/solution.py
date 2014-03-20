@@ -5,4 +5,4 @@ def count_words(arr):
             dictionary[item] = 1
         else:
             dictionary[item] += 1
-    return dictionarys
+    return dictionary

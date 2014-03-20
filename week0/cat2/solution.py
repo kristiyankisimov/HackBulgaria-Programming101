@@ -5,7 +5,7 @@ def cat2(file_names):
     for f in file_names:
         file = open(f, "r")
         c = file.read()
-        file.close
+        file.close()
         content.append(c)
     return "\n".join(content)
 
